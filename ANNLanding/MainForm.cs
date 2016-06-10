@@ -73,12 +73,6 @@ namespace ANNLanding
             double x = -100.0;
             double.TryParse(textBox7.Text, out x);
 
-            //double c_y = 0.0;
-            //double.TryParse(textBox12.Text, out c_y);
-
-            double beta_start = 0.0;
-            double.TryParse(textBox8.Text, out beta_start);
-
             IControlSystem csystem = null;
             Simulator.StateDelegate dlg = null;
             if (checkBox6.Checked)
@@ -90,14 +84,56 @@ namespace ANNLanding
                 csystem = new EmulatorTrainer.DummyControlSystem(new XnaGeometry.Vector3(0.0, 0.0, c_z));
 
             simulator.SandboxInit(V, 0.0, H, x, alpha_start, c_z);
-            simulator.model.control_surface = new XnaGeometry.Vector3(0.0, 0.0, c_z);
-            simulator.Simulate(csystem, dlg, timeMax, dt);
+            if (checkBox4.Checked)
+            {
+                simulator.model.control_surface = new XnaGeometry.Vector3(0.0, 0.0, c_z);
+                simulator.Simulate(csystem, dlg, timeMax, dt);
+            }
             if (checkBox2.Checked)
             {
                 simulator.SimulateAnn(emulator, csystem, dlg, timeMax, dt);
             }
 
             update_charts();
+
+            // Отчёт об ошибке
+            if (checkBox6.Checked)
+            {
+                double y_error = 0.0;
+                double v_y_error = 0.0;
+                double angv_error = 0.0;
+
+                if (checkBox4.Checked)
+                {
+                    y_error = fin_Y - simulator.experiment_result[Simulator.FlightData.Altitude].Last();
+                    v_y_error = fin_Vy - simulator.experiment_result[Simulator.FlightData.vel_y].Last();
+                    angv_error = fin_angvel - simulator.experiment_result[Simulator.FlightData.ang_vel_z].Last();
+
+                    label47.Text = y_error.ToString("G5");
+                    label45.Text = v_y_error.ToString("G5");
+                    label43.Text = angv_error.ToString("G5");
+                }
+
+                if (checkBox2.Checked)
+                {
+                    y_error = fin_Y - simulator.emulator_result[Simulator.FlightData.Altitude].Last();
+                    v_y_error = fin_Vy - simulator.emulator_result[Simulator.FlightData.vel_y].Last();
+                    angv_error = fin_angvel - simulator.emulator_result[Simulator.FlightData.ang_vel_z].Last();
+
+                    label33.Text = y_error.ToString("G5");
+                    label34.Text = v_y_error.ToString("G5");
+                    label36.Text = angv_error.ToString("G5");
+                }
+            }
+            else
+            {
+                label47.Text = "0.0";
+                label45.Text = "0.0";
+                label43.Text = "0.0";
+                label33.Text = "0.0";
+                label34.Text = "0.0";
+                label36.Text = "0.0";
+            }
         }
 
         void update_charts()
@@ -124,12 +160,15 @@ namespace ANNLanding
             {
                 chart.Series[0].Name = "траектория";
                 chart.Series[0].Points.Clear();
-                if (simulator.experiment_result.ContainsKey(Simulator.FlightData.Altitude))
+                if (checkBox4.Checked)
                 {
-                    var y = simulator.experiment_result[Simulator.FlightData.Altitude];
-                    var x = simulator.experiment_result[Simulator.FlightData.X];
-                    for (int i = 0; i < x.Count; i++)
-                        chart.Series[0].Points.AddXY(x[i], y[i]);
+                    if (simulator.experiment_result.ContainsKey(Simulator.FlightData.Altitude))
+                    {
+                        var y = simulator.experiment_result[Simulator.FlightData.Altitude];
+                        var x = simulator.experiment_result[Simulator.FlightData.X];
+                        for (int i = 0; i < x.Count; i++)
+                            chart.Series[0].Points.AddXY(x[i], y[i]);
+                    }
                 }
                 chart.Series[1].Points.Clear();
                 if (checkBox2.Checked)
@@ -149,12 +188,15 @@ namespace ANNLanding
                 Simulator.FlightData enum_type = (Simulator.FlightData)Enum.Parse(typeof(Simulator.FlightData), enum_name);
                 chart.Series[0].Name = enum_name;
                 chart.Series[0].Points.Clear();
-                if (simulator.experiment_result.ContainsKey(enum_type))
+                if (checkBox4.Checked)
                 {
-                    var res = simulator.experiment_result[enum_type];
-                    var time = simulator.experiment_result[Simulator.FlightData.time];
-                    for (int i = 0; i < time.Count; i++)
-                        chart.Series[0].Points.AddXY(time[i], res[i]);
+                    if (simulator.experiment_result.ContainsKey(enum_type))
+                    {
+                        var res = simulator.experiment_result[enum_type];
+                        var time = simulator.experiment_result[Simulator.FlightData.time];
+                        for (int i = 0; i < time.Count; i++)
+                            chart.Series[0].Points.AddXY(time[i], res[i]);
+                    }
                 }
                 chart.Series[1].Points.Clear();
                 if (checkBox2.Checked)
@@ -264,8 +306,8 @@ namespace ANNLanding
         void report_regul(int epoch, double t_error, double g_error, double v_error)
         {
             chart5.Series[0].Points.AddXY(epoch, t_error);
-            chart5.Series[1].Points.AddXY(epoch, g_error);
-            chart5.Series[2].Points.AddXY(epoch, v_error);
+            //chart5.Series[1].Points.AddXY(epoch, g_error);
+            //chart5.Series[2].Points.AddXY(epoch, v_error);
         }
 
         void clear_chart3()
@@ -444,13 +486,16 @@ namespace ANNLanding
         
         TansigAnn debug_ann = new TansigAnn(1, 2, new int[2] { 3, 1 }, true, 1.0, 1.0);
 
+        // Создать синус
         private void button12_Click(object sender, EventArgs e)
         {
             List<TansigAnn.TrainingPair> debug_pairs = new List<TansigAnn.TrainingPair>();
+            debug_ann = new TansigAnn(1, 2, new int[2] { 5, 1 }, true, 1.0, 1.0);
             double dx = 0.01;
             double k = 5.0;
             double.TryParse(textBox26.Text, out k);
             chart4.Series[0].Points.Clear();
+            chart4.Series[1].Points.Clear();
             for (double x = -1.0; x <= 1.0; x += dx)
             {
                 Matrix input = new Matrix(1, 1);
@@ -718,17 +763,17 @@ namespace ANNLanding
             dataGridView2.Rows[2].Cells[2].Value = "0,00001";
         }
 
+        double fin_X = 0.0;
+        double fin_Y = 0.0;
+        double fin_Vy = -0.5;
+        double fin_angvel = 0.0;
+
         void updateRegulWeightFromGrid()
         {
-            // Конечное состояние
-
-            double fin_X = 0.0;
-            double.TryParse(dataGridView1.Rows[0].Cells[1].Value as string, out fin_X);
-            double fin_Y = 0.0;
+            // Конечное состояние            
+            double.TryParse(dataGridView1.Rows[0].Cells[1].Value as string, out fin_X);            
             double.TryParse(dataGridView1.Rows[1].Cells[1].Value as string, out fin_Y);
-            double fin_Vy = -0.5;
-            double.TryParse(dataGridView1.Rows[2].Cells[1].Value as string, out fin_Vy);
-            double fin_angvel = 0.0;
+            double.TryParse(dataGridView1.Rows[2].Cells[1].Value as string, out fin_Vy);            
             double.TryParse(dataGridView1.Rows[3].Cells[1].Value as string, out fin_angvel);
 
             double fin_X_weight = 0.0;
