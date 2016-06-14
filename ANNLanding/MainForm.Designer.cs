@@ -28,26 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea26 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend26 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series51 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series52 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea27 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend27 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series53 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series54 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea28 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend28 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series55 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series56 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series57 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea29 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend29 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series58 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series59 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea30 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend30 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series60 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.mainTabControl = new System.Windows.Forms.TabControl();
             this.Model = new System.Windows.Forms.TabPage();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
@@ -56,6 +56,21 @@
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.chart2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.label46 = new System.Windows.Forms.Label();
+            this.label47 = new System.Windows.Forms.Label();
+            this.label48 = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
             this.checkBox6 = new System.Windows.Forms.CheckBox();
             this.label7 = new System.Windows.Forms.Label();
             this.textBox7 = new System.Windows.Forms.TextBox();
@@ -119,11 +134,6 @@
             this.label9 = new System.Windows.Forms.Label();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.sinAnnDebug = new System.Windows.Forms.TabPage();
-            this.button14 = new System.Windows.Forms.Button();
-            this.textBox26 = new System.Windows.Forms.TextBox();
-            this.button12 = new System.Windows.Forms.Button();
-            this.chart4 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.Control = new System.Windows.Forms.TabPage();
             this.chart5 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -167,24 +177,14 @@
             this.label41 = new System.Windows.Forms.Label();
             this.textBox42 = new System.Windows.Forms.TextBox();
             this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.sinAnnDebug = new System.Windows.Forms.TabPage();
+            this.chart4 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.textBox26 = new System.Windows.Forms.TextBox();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
-            this.label47 = new System.Windows.Forms.Label();
-            this.label48 = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.mainTabControl.SuspendLayout();
             this.Model.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
@@ -197,13 +197,13 @@
             this.ModelApprox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart3)).BeginInit();
             this.panel2.SuspendLayout();
-            this.sinAnnDebug.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart4)).BeginInit();
             this.Control.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart5)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.sinAnnDebug.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart4)).BeginInit();
             this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -217,7 +217,7 @@
             this.mainTabControl.Location = new System.Drawing.Point(0, 0);
             this.mainTabControl.Name = "mainTabControl";
             this.mainTabControl.SelectedIndex = 0;
-            this.mainTabControl.Size = new System.Drawing.Size(1103, 704);
+            this.mainTabControl.Size = new System.Drawing.Size(1103, 672);
             this.mainTabControl.TabIndex = 0;
             // 
             // Model
@@ -227,7 +227,7 @@
             this.Model.Location = new System.Drawing.Point(4, 22);
             this.Model.Name = "Model";
             this.Model.Padding = new System.Windows.Forms.Padding(3);
-            this.Model.Size = new System.Drawing.Size(1095, 678);
+            this.Model.Size = new System.Drawing.Size(1095, 646);
             this.Model.TabIndex = 0;
             this.Model.Text = "Модель";
             this.Model.UseVisualStyleBackColor = true;
@@ -249,8 +249,8 @@
             // 
             this.splitContainer1.Panel2.Controls.Add(this.comboBox2);
             this.splitContainer1.Panel2.Controls.Add(this.chart2);
-            this.splitContainer1.Size = new System.Drawing.Size(936, 672);
-            this.splitContainer1.SplitterDistance = 319;
+            this.splitContainer1.Size = new System.Drawing.Size(936, 640);
+            this.splitContainer1.SplitterDistance = 303;
             this.splitContainer1.TabIndex = 1;
             // 
             // comboBox1
@@ -266,27 +266,31 @@
             // 
             // chart1
             // 
-            chartArea26.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea26);
+            chartArea1.AxisX.Interval = 1D;
+            chartArea1.AxisX.IntervalOffsetType = System.Windows.Forms.DataVisualization.Charting.DateTimeIntervalType.Number;
+            chartArea1.AxisX.IntervalType = System.Windows.Forms.DataVisualization.Charting.DateTimeIntervalType.Number;
+            chartArea1.AxisX.LabelStyle.Format = "G4";
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
             this.chart1.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend26.Name = "Legend1";
-            this.chart1.Legends.Add(legend26);
+            legend1.Name = "Legend1";
+            this.chart1.Legends.Add(legend1);
             this.chart1.Location = new System.Drawing.Point(0, 0);
             this.chart1.Name = "chart1";
-            series51.BorderWidth = 2;
-            series51.ChartArea = "ChartArea1";
-            series51.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series51.Legend = "Legend1";
-            series51.Name = "Series1";
-            series52.BorderWidth = 2;
-            series52.ChartArea = "ChartArea1";
-            series52.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series52.Color = System.Drawing.Color.Red;
-            series52.Legend = "Legend1";
-            series52.Name = "Эмулятор";
-            this.chart1.Series.Add(series51);
-            this.chart1.Series.Add(series52);
-            this.chart1.Size = new System.Drawing.Size(934, 317);
+            series1.BorderWidth = 2;
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            series2.BorderWidth = 2;
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series2.Color = System.Drawing.Color.Red;
+            series2.Legend = "Legend1";
+            series2.Name = "Эмулятор";
+            this.chart1.Series.Add(series1);
+            this.chart1.Series.Add(series2);
+            this.chart1.Size = new System.Drawing.Size(934, 301);
             this.chart1.TabIndex = 0;
             this.chart1.Text = "chart1";
             // 
@@ -303,27 +307,28 @@
             // 
             // chart2
             // 
-            chartArea27.Name = "ChartArea1";
-            this.chart2.ChartAreas.Add(chartArea27);
+            chartArea2.AxisX.LabelStyle.Format = "G4";
+            chartArea2.Name = "ChartArea1";
+            this.chart2.ChartAreas.Add(chartArea2);
             this.chart2.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend27.Name = "Legend1";
-            this.chart2.Legends.Add(legend27);
+            legend2.Name = "Legend1";
+            this.chart2.Legends.Add(legend2);
             this.chart2.Location = new System.Drawing.Point(0, 0);
             this.chart2.Name = "chart2";
-            series53.BorderWidth = 2;
-            series53.ChartArea = "ChartArea1";
-            series53.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series53.Legend = "Legend1";
-            series53.Name = "Series1";
-            series54.BorderWidth = 2;
-            series54.ChartArea = "ChartArea1";
-            series54.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series54.Color = System.Drawing.Color.Red;
-            series54.Legend = "Legend1";
-            series54.Name = "Эмулятор";
-            this.chart2.Series.Add(series53);
-            this.chart2.Series.Add(series54);
-            this.chart2.Size = new System.Drawing.Size(934, 347);
+            series3.BorderWidth = 2;
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series3.Legend = "Legend1";
+            series3.Name = "Series1";
+            series4.BorderWidth = 2;
+            series4.ChartArea = "ChartArea1";
+            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series4.Color = System.Drawing.Color.Red;
+            series4.Legend = "Legend1";
+            series4.Name = "Эмулятор";
+            this.chart2.Series.Add(series3);
+            this.chart2.Series.Add(series4);
+            this.chart2.Size = new System.Drawing.Size(934, 331);
             this.chart2.TabIndex = 0;
             this.chart2.Text = "chart2";
             // 
@@ -364,8 +369,147 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(153, 672);
+            this.panel1.Size = new System.Drawing.Size(153, 640);
             this.panel1.TabIndex = 0;
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.CheckAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.checkBox4.Checked = true;
+            this.checkBox4.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox4.Location = new System.Drawing.Point(5, 188);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(65, 17);
+            this.checkBox4.TabIndex = 37;
+            this.checkBox4.Text = "Модель";
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Location = new System.Drawing.Point(78, 407);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(22, 13);
+            this.label43.TabIndex = 36;
+            this.label43.Text = "0,0";
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Location = new System.Drawing.Point(10, 407);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(35, 13);
+            this.label44.TabIndex = 35;
+            this.label44.Text = "ω_z =";
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Location = new System.Drawing.Point(78, 394);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(22, 13);
+            this.label45.TabIndex = 34;
+            this.label45.Text = "0,0";
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Location = new System.Drawing.Point(10, 394);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(28, 13);
+            this.label46.TabIndex = 33;
+            this.label46.Text = "Vy =";
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.Location = new System.Drawing.Point(78, 381);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(22, 13);
+            this.label47.TabIndex = 32;
+            this.label47.Text = "0,0";
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.Location = new System.Drawing.Point(10, 381);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(23, 13);
+            this.label48.TabIndex = 31;
+            this.label48.Text = "Y =";
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Location = new System.Drawing.Point(5, 355);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(106, 13);
+            this.label49.TabIndex = 30;
+            this.label49.Text = "Ошибки на модели:";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(79, 331);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(22, 13);
+            this.label36.TabIndex = 29;
+            this.label36.Text = "0,0";
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Location = new System.Drawing.Point(10, 331);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(35, 13);
+            this.label42.TabIndex = 28;
+            this.label42.Text = "ω_z =";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(79, 318);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(22, 13);
+            this.label34.TabIndex = 27;
+            this.label34.Text = "0,0";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(10, 318);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(28, 13);
+            this.label35.TabIndex = 26;
+            this.label35.Text = "Vy =";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(79, 305);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(22, 13);
+            this.label33.TabIndex = 25;
+            this.label33.Text = "0,0";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(10, 305);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(23, 13);
+            this.label32.TabIndex = 24;
+            this.label32.Text = "Y =";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(5, 279);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(125, 13);
+            this.label28.TabIndex = 23;
+            this.label28.Text = "Ошибки  на эмуляторе:";
             // 
             // checkBox6
             // 
@@ -446,7 +590,7 @@
             // button1
             // 
             this.button1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.button1.Location = new System.Drawing.Point(0, 632);
+            this.button1.Location = new System.Drawing.Point(0, 600);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(153, 40);
             this.button1.TabIndex = 8;
@@ -533,44 +677,44 @@
             this.ModelApprox.Location = new System.Drawing.Point(4, 22);
             this.ModelApprox.Name = "ModelApprox";
             this.ModelApprox.Padding = new System.Windows.Forms.Padding(3);
-            this.ModelApprox.Size = new System.Drawing.Size(1095, 678);
+            this.ModelApprox.Size = new System.Drawing.Size(1095, 646);
             this.ModelApprox.TabIndex = 1;
             this.ModelApprox.Text = "Эмулятор";
             this.ModelApprox.UseVisualStyleBackColor = true;
             // 
             // chart3
             // 
-            chartArea28.AxisX.Title = "эпоха";
-            chartArea28.Name = "ChartArea1";
-            this.chart3.ChartAreas.Add(chartArea28);
+            chartArea3.AxisX.Title = "эпоха";
+            chartArea3.Name = "ChartArea1";
+            this.chart3.ChartAreas.Add(chartArea3);
             this.chart3.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend28.DockedToChartArea = "ChartArea1";
-            legend28.Name = "Legend1";
-            this.chart3.Legends.Add(legend28);
+            legend3.DockedToChartArea = "ChartArea1";
+            legend3.Name = "Legend1";
+            this.chart3.Legends.Add(legend3);
             this.chart3.Location = new System.Drawing.Point(377, 3);
             this.chart3.Name = "chart3";
-            series55.BorderWidth = 2;
-            series55.ChartArea = "ChartArea1";
-            series55.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.FastLine;
-            series55.Legend = "Legend1";
-            series55.MarkerStyle = System.Windows.Forms.DataVisualization.Charting.MarkerStyle.Circle;
-            series55.Name = "training_error";
-            series56.BorderWidth = 2;
-            series56.ChartArea = "ChartArea1";
-            series56.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.FastLine;
-            series56.Legend = "Legend1";
-            series56.MarkerStyle = System.Windows.Forms.DataVisualization.Charting.MarkerStyle.Circle;
-            series56.Name = "generalization_error";
-            series57.BorderWidth = 2;
-            series57.ChartArea = "ChartArea1";
-            series57.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.FastLine;
-            series57.Legend = "Legend1";
-            series57.MarkerStyle = System.Windows.Forms.DataVisualization.Charting.MarkerStyle.Circle;
-            series57.Name = "validation_error";
-            this.chart3.Series.Add(series55);
-            this.chart3.Series.Add(series56);
-            this.chart3.Series.Add(series57);
-            this.chart3.Size = new System.Drawing.Size(715, 672);
+            series5.BorderWidth = 2;
+            series5.ChartArea = "ChartArea1";
+            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.FastLine;
+            series5.Legend = "Legend1";
+            series5.MarkerStyle = System.Windows.Forms.DataVisualization.Charting.MarkerStyle.Circle;
+            series5.Name = "training_error";
+            series6.BorderWidth = 2;
+            series6.ChartArea = "ChartArea1";
+            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.FastLine;
+            series6.Legend = "Legend1";
+            series6.MarkerStyle = System.Windows.Forms.DataVisualization.Charting.MarkerStyle.Circle;
+            series6.Name = "generalization_error";
+            series7.BorderWidth = 2;
+            series7.ChartArea = "ChartArea1";
+            series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.FastLine;
+            series7.Legend = "Legend1";
+            series7.MarkerStyle = System.Windows.Forms.DataVisualization.Charting.MarkerStyle.Circle;
+            series7.Name = "validation_error";
+            this.chart3.Series.Add(series5);
+            this.chart3.Series.Add(series6);
+            this.chart3.Series.Add(series7);
+            this.chart3.Size = new System.Drawing.Size(715, 640);
             this.chart3.TabIndex = 1;
             this.chart3.Text = "chart3";
             // 
@@ -622,7 +766,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(3, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(374, 672);
+            this.panel2.Size = new System.Drawing.Size(374, 640);
             this.panel2.TabIndex = 0;
             // 
             // button17
@@ -1036,70 +1180,6 @@
             this.checkBox1.Text = "Линейный выход";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // sinAnnDebug
-            // 
-            this.sinAnnDebug.Controls.Add(this.chart4);
-            this.sinAnnDebug.Controls.Add(this.panel4);
-            this.sinAnnDebug.Location = new System.Drawing.Point(4, 22);
-            this.sinAnnDebug.Name = "sinAnnDebug";
-            this.sinAnnDebug.Size = new System.Drawing.Size(1095, 678);
-            this.sinAnnDebug.TabIndex = 2;
-            this.sinAnnDebug.Text = "синус";
-            this.sinAnnDebug.UseVisualStyleBackColor = true;
-            // 
-            // button14
-            // 
-            this.button14.Location = new System.Drawing.Point(3, 97);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(75, 37);
-            this.button14.TabIndex = 3;
-            this.button14.Text = "вывод сети";
-            this.button14.UseVisualStyleBackColor = true;
-            this.button14.Click += new System.EventHandler(this.button14_Click);
-            // 
-            // textBox26
-            // 
-            this.textBox26.Location = new System.Drawing.Point(17, 71);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(61, 20);
-            this.textBox26.TabIndex = 2;
-            this.textBox26.Text = "5,0";
-            // 
-            // button12
-            // 
-            this.button12.Location = new System.Drawing.Point(3, 21);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(75, 38);
-            this.button12.TabIndex = 1;
-            this.button12.Text = "создать синус";
-            this.button12.UseVisualStyleBackColor = true;
-            this.button12.Click += new System.EventHandler(this.button12_Click);
-            // 
-            // chart4
-            // 
-            chartArea29.Name = "ChartArea1";
-            this.chart4.ChartAreas.Add(chartArea29);
-            this.chart4.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend29.Name = "Legend1";
-            this.chart4.Legends.Add(legend29);
-            this.chart4.Location = new System.Drawing.Point(124, 0);
-            this.chart4.Name = "chart4";
-            series58.ChartArea = "ChartArea1";
-            series58.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series58.Legend = "Legend1";
-            series58.MarkerStyle = System.Windows.Forms.DataVisualization.Charting.MarkerStyle.Circle;
-            series58.Name = "Series1";
-            series59.BorderWidth = 2;
-            series59.ChartArea = "ChartArea1";
-            series59.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series59.Legend = "Legend1";
-            series59.Name = "Series2";
-            this.chart4.Series.Add(series58);
-            this.chart4.Series.Add(series59);
-            this.chart4.Size = new System.Drawing.Size(971, 678);
-            this.chart4.TabIndex = 0;
-            this.chart4.Text = "chart4";
-            // 
             // Control
             // 
             this.Control.Controls.Add(this.chart5);
@@ -1113,22 +1193,22 @@
             // 
             // chart5
             // 
-            chartArea30.AxisX.Title = "эпоха";
-            chartArea30.Name = "ChartArea1";
-            this.chart5.ChartAreas.Add(chartArea30);
+            chartArea4.AxisX.Title = "эпоха";
+            chartArea4.Name = "ChartArea1";
+            this.chart5.ChartAreas.Add(chartArea4);
             this.chart5.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend30.DockedToChartArea = "ChartArea1";
-            legend30.Name = "Legend1";
-            this.chart5.Legends.Add(legend30);
+            legend4.DockedToChartArea = "ChartArea1";
+            legend4.Name = "Legend1";
+            this.chart5.Legends.Add(legend4);
             this.chart5.Location = new System.Drawing.Point(374, 0);
             this.chart5.Name = "chart5";
-            series60.BorderWidth = 2;
-            series60.ChartArea = "ChartArea1";
-            series60.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.FastLine;
-            series60.Legend = "Legend1";
-            series60.MarkerStyle = System.Windows.Forms.DataVisualization.Charting.MarkerStyle.Circle;
-            series60.Name = "training_error";
-            this.chart5.Series.Add(series60);
+            series8.BorderWidth = 2;
+            series8.ChartArea = "ChartArea1";
+            series8.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.FastLine;
+            series8.Legend = "Legend1";
+            series8.MarkerStyle = System.Windows.Forms.DataVisualization.Charting.MarkerStyle.Circle;
+            series8.Name = "training_error";
+            this.chart5.Series.Add(series8);
             this.chart5.Size = new System.Drawing.Size(721, 678);
             this.chart5.TabIndex = 2;
             this.chart5.Text = "chart5";
@@ -1541,17 +1621,41 @@
             this.checkBox5.Text = "Линейный выход";
             this.checkBox5.UseVisualStyleBackColor = true;
             // 
-            // saveFileDialog1
+            // sinAnnDebug
             // 
-            this.saveFileDialog1.DefaultExt = "txt";
-            this.saveFileDialog1.FileName = "approx.txt";
-            this.saveFileDialog1.Title = "Сохранить аппроксиматор";
+            this.sinAnnDebug.Controls.Add(this.chart4);
+            this.sinAnnDebug.Controls.Add(this.panel4);
+            this.sinAnnDebug.Location = new System.Drawing.Point(4, 22);
+            this.sinAnnDebug.Name = "sinAnnDebug";
+            this.sinAnnDebug.Size = new System.Drawing.Size(1095, 678);
+            this.sinAnnDebug.TabIndex = 2;
+            this.sinAnnDebug.Text = "синус";
+            this.sinAnnDebug.UseVisualStyleBackColor = true;
             // 
-            // openFileDialog1
+            // chart4
             // 
-            this.openFileDialog1.DefaultExt = "txt";
-            this.openFileDialog1.Filter = "Text files|*.txt";
-            this.openFileDialog1.Title = "Загрузить аппроксиматор";
+            chartArea5.Name = "ChartArea1";
+            this.chart4.ChartAreas.Add(chartArea5);
+            this.chart4.Dock = System.Windows.Forms.DockStyle.Fill;
+            legend5.Name = "Legend1";
+            this.chart4.Legends.Add(legend5);
+            this.chart4.Location = new System.Drawing.Point(124, 0);
+            this.chart4.Name = "chart4";
+            series9.ChartArea = "ChartArea1";
+            series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series9.Legend = "Legend1";
+            series9.MarkerStyle = System.Windows.Forms.DataVisualization.Charting.MarkerStyle.Circle;
+            series9.Name = "Series1";
+            series10.BorderWidth = 2;
+            series10.ChartArea = "ChartArea1";
+            series10.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series10.Legend = "Legend1";
+            series10.Name = "Series2";
+            this.chart4.Series.Add(series9);
+            this.chart4.Series.Add(series10);
+            this.chart4.Size = new System.Drawing.Size(971, 678);
+            this.chart4.TabIndex = 0;
+            this.chart4.Text = "chart4";
             // 
             // panel4
             // 
@@ -1564,152 +1668,53 @@
             this.panel4.Size = new System.Drawing.Size(124, 678);
             this.panel4.TabIndex = 4;
             // 
-            // label28
+            // button12
             // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(5, 279);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(125, 13);
-            this.label28.TabIndex = 23;
-            this.label28.Text = "Ошибки  на эмуляторе:";
+            this.button12.Location = new System.Drawing.Point(3, 21);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(75, 38);
+            this.button12.TabIndex = 1;
+            this.button12.Text = "создать синус";
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
-            // label32
+            // button14
             // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(10, 305);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(23, 13);
-            this.label32.TabIndex = 24;
-            this.label32.Text = "Y =";
+            this.button14.Location = new System.Drawing.Point(3, 97);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(75, 37);
+            this.button14.TabIndex = 3;
+            this.button14.Text = "вывод сети";
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
-            // label33
+            // textBox26
             // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(79, 305);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(22, 13);
-            this.label33.TabIndex = 25;
-            this.label33.Text = "0,0";
+            this.textBox26.Location = new System.Drawing.Point(17, 71);
+            this.textBox26.Name = "textBox26";
+            this.textBox26.Size = new System.Drawing.Size(61, 20);
+            this.textBox26.TabIndex = 2;
+            this.textBox26.Text = "5,0";
             // 
-            // label34
+            // saveFileDialog1
             // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(79, 318);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(22, 13);
-            this.label34.TabIndex = 27;
-            this.label34.Text = "0,0";
+            this.saveFileDialog1.DefaultExt = "txt";
+            this.saveFileDialog1.FileName = "approx.txt";
+            this.saveFileDialog1.Title = "Сохранить аппроксиматор";
             // 
-            // label35
+            // openFileDialog1
             // 
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(10, 318);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(28, 13);
-            this.label35.TabIndex = 26;
-            this.label35.Text = "Vy =";
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(79, 331);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(22, 13);
-            this.label36.TabIndex = 29;
-            this.label36.Text = "0,0";
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(10, 331);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(35, 13);
-            this.label42.TabIndex = 28;
-            this.label42.Text = "ω_z =";
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(78, 407);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(22, 13);
-            this.label43.TabIndex = 36;
-            this.label43.Text = "0,0";
-            // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(10, 407);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(35, 13);
-            this.label44.TabIndex = 35;
-            this.label44.Text = "ω_z =";
-            // 
-            // label45
-            // 
-            this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(78, 394);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(22, 13);
-            this.label45.TabIndex = 34;
-            this.label45.Text = "0,0";
-            // 
-            // label46
-            // 
-            this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(10, 394);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(28, 13);
-            this.label46.TabIndex = 33;
-            this.label46.Text = "Vy =";
-            // 
-            // label47
-            // 
-            this.label47.AutoSize = true;
-            this.label47.Location = new System.Drawing.Point(78, 381);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(22, 13);
-            this.label47.TabIndex = 32;
-            this.label47.Text = "0,0";
-            // 
-            // label48
-            // 
-            this.label48.AutoSize = true;
-            this.label48.Location = new System.Drawing.Point(10, 381);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(23, 13);
-            this.label48.TabIndex = 31;
-            this.label48.Text = "Y =";
-            // 
-            // label49
-            // 
-            this.label49.AutoSize = true;
-            this.label49.Location = new System.Drawing.Point(5, 355);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(106, 13);
-            this.label49.TabIndex = 30;
-            this.label49.Text = "Ошибки на модели:";
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.CheckAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.checkBox4.Checked = true;
-            this.checkBox4.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox4.Location = new System.Drawing.Point(5, 188);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(65, 17);
-            this.checkBox4.TabIndex = 37;
-            this.checkBox4.Text = "Модель";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.openFileDialog1.DefaultExt = "txt";
+            this.openFileDialog1.Filter = "Text files|*.txt";
+            this.openFileDialog1.Title = "Загрузить аппроксиматор";
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1103, 704);
+            this.ClientSize = new System.Drawing.Size(1103, 672);
             this.Controls.Add(this.mainTabControl);
-            this.MinimumSize = new System.Drawing.Size(900, 640);
+            this.MinimumSize = new System.Drawing.Size(900, 710);
             this.Name = "MainForm";
             this.Text = "Управление посадкой";
             this.mainTabControl.ResumeLayout(false);
@@ -1726,14 +1731,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.chart3)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            this.sinAnnDebug.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chart4)).EndInit();
             this.Control.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.chart5)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.sinAnnDebug.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chart4)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.ResumeLayout(false);
